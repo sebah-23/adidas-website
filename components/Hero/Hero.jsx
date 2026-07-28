@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
     <section className="relative w-full h-[650px] overflow-hidden">
     <img src={cover} alt ="hero" className="w-full h-full object-cover"  />
     <img src={adidas} alt="adidas logo" className="absolute top-10 right-20 w-72"/>
-    <div className="absolute top-28 left-10 text-red">
+    <div className="absolute top-28 left-10 text-black">
         <h1 className="text-6xl font-bold leading-tight">
             ADICLUB<br/>
             IS SHOWING OFF.

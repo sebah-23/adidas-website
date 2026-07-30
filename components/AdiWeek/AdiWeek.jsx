@@ -42,9 +42,7 @@ function AdiWeek() {
 <ProductCard />
 <ProductCard />
 <ProductCard />
-<ProductCard />
-<ProductCard />
-<ProductCard />
+
 
 </div>
 

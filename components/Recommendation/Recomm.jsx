@@ -43,9 +43,7 @@ import { FaChevronCircleLeft,FaChevronCircleRight } from 'react-icons/fa';
 <ProductCard />
 <ProductCard />
 <ProductCard />
-<ProductCard />
-<ProductCard />
-<ProductCard />
+
 
 </div>
 

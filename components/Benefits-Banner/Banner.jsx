@@ -3,7 +3,15 @@ import bannerimg from "../../assets/images/bannerimg.png";
  function Banner() {
   return (
    <section className="py-16 flex justify-center "  >
-    <div className="flex w-[1200px] h-[470px]">
+    <div className="
+  flex
+  flex-col
+  lg:flex-row
+  max-w-[1200px]
+  w-full
+  h-auto
+  lg:h-[470px]
+">
     <div className=" w-[35%]"><img src={bannerimg} alt="banner-img" className="w-full h-full object-cover rounded-l-[50px]"/></div> 
   <div className="w-[65%] bg-[#231F20] text-white rounded-r-[50px] flex flex-col justify-center px-16">
        <div>

@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
   return (
     <section className="relative w-full h-[650px] overflow-hidden">
     <img src={covers} alt ="hero" className="w-full h-full object-cover"  />
-    <img src={adidas} alt="adidas logo" className="absolute top-10 right-100 w-72"/>
+    {/* <img src={adidas} alt="adidas logo" className="absolute top-10 right-100 w-72"/> */}
     <div className="absolute top-28 left-10 text-black">
         <h1 className="text-6xl font-bold leading-tight">
             ADICLUB<br/>

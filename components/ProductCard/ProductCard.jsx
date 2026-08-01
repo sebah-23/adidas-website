@@ -3,32 +3,7 @@ import shoe from "../../assets/images/Sneaker (1).png";
 
 function ProductCard() {
   return (
-    // <div className="w-[320]">
-
-    //   <div className="relative bg-gray-100 p-5">
-
-    //     <img
-    //       src={shoe}
-    //       alt="Sneaker"
-    //       className="w-full"
-    //     />
-    //     <FaRegHeart
-    //       className="absolute top-4 right-4 text-2xl cursor-pointer"
-    //     />
-    //   </div>
-    //   <div className="mt-3">
-    //     <p className="font-semibold">US$170.00</p>
-    //     <p className="text-gray-500 text-sm">
-    //       free shipping
-    //     </p>
-    //     <h3 className="font-bold mt-2">
-    //       Sneaker X
-    //     </h3>
-    //     <p className="text-gray-500 text-sm">
-    //       Sneaker Styles
-    //     </p>
-    //   </div>
-    // </div>
+    
     <div className="w-100" > 
     <div className="relative bg-gray-100 p-10">
      <img src={shoe} alt="sniker shoes"  className="w-full" />

@@ -3,18 +3,47 @@ import shoe from "../../assets/images/Sneaker (1).png";
 
 function ProductCard() {
   return (
-    
-    <div className="w-100" > 
-    <div className="relative bg-gray-100 p-10">
-     <img src={shoe} alt="sniker shoes"  className="w-full" />
-     <FaRegHeart className="absolute top-4 right-4 text-2xl cursor-pointer" />
-     <p className="font-semibold">U$170,00</p>
-     <p className="text-gray-500 text-sm" >free shipping</p>
+    <div
+      className="
+        w-[220px]
+        sm:w-[240px]
+        md:w-[260px]
+        lg:w-[280px]
+        flex-shrink-0
+      "
+    >
+      <div className="relative bg-gray-100 p-4 md:p-6 lg:p-8 rounded-lg">
+
+        <img
+          src={shoe}
+          alt="Sneaker shoes"
+          className="w-full object-contain"
+        />
+
+        <FaRegHeart className="absolute top-4 right-4 text-xl md:text-2xl cursor-pointer hover:text-red-500 transition" />
+
+        <p className="mt-4 font-semibold text-base md:text-lg">
+          U$170.00
+        </p>
+
+        <p className="text-gray-500 text-sm">
+          Free shipping
+        </p>
+
+      </div>
+
+      <div className="mt-3">
+
+        <p className="font-bold text-base md:text-lg">
+          Sneaker X
+        </p>
+
+        <p className="text-gray-500 text-sm">
+          Sneaker Style
+        </p>
+
+      </div>
     </div>
-        <p className="font-bold mt-2" >Sneaker x</p>
-        <p className="text-gray-500 text-sm">sneaker style</p>
-    </div>
-   
   );
 }
 
